@@ -1,0 +1,11 @@
+pipeline{
+    agent any{
+        stages{
+            Buildstage{
+                steps{
+                    echo "welcome gowri"
+                }
+            }
+        }
+    }
+}
